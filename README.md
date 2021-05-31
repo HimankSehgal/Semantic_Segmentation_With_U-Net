@@ -6,7 +6,7 @@
 * Data Description 
 * Libraries used
 
-* Structure of the Approach
+* Steps followed
 
 * Conclusion
 
@@ -93,7 +93,7 @@ The final directory strucutre will be as follows
 * os module of python
 * tqdm
 
-## Structure of the Approach
+## Steps Followed
 
 * ### 1. Defining Transformations for train and test data
 As different images have different sizes, it is important to define a tranform function which can take different images and return images which have similar aspect ratios and size. We will be using functions from <tt> torchvision.transforms </tt> like <tt>  transforms.Resize( )</tt> , <tt> transforms.CenterCrop() </tt> for this purpose. Also the pictures will be in form of pixels. We need to convert that to tensor values. For that we will use the function <tt> transforms.ToTensor() </tt><br>
