@@ -87,9 +87,9 @@ Sample image.jpg file <br>
 ![](image2.png)
 ![](label2.png)
 
+![](image3.png)
+![](label3.png)
 
-
-Samoke label.png file  -----------------------------------------------------------------------------------
 
 ## Libraries used:
 * Numpy
