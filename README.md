@@ -118,6 +118,10 @@ Now the train dataset has 1999 images which can not be fed in one go. I use <a h
 The model architecture is shown in the picture below
 ![](Model_arch.png)
 
+It has a encoding path and a decoding path. The architecture is difficult to code in one <tt>class UNet(nn.Module</tt>. So I define some classes before hand which can help to make our code concise and simple to read
+
+The input to the model is of shape 10x3x256x256 and output is 10x11x256x256
+
 
 * ### 6. Defining Dice Loss and optimizer
 
