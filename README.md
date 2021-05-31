@@ -80,7 +80,7 @@ The final directory strucutre will be as follows
                 ├── label2.jpg
                 └── ... (100 files)</pre>
                 
-Sample image.jpg file <br>
+Sample images and their corresponding labels <br>
 ![](image1.png)
 ![](label1.png)
 
