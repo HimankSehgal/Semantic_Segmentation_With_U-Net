@@ -79,6 +79,10 @@ The final directory strucutre will be as follows
                 ├── label1.jpg
                 ├── label2.jpg
                 └── ... (100 files)</pre>
+                
+Sample image.jpg file
+
+Samoke label.png file
 
 ## Libraries used:
 * Numpy
