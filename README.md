@@ -15,7 +15,7 @@
 ## Overview of Project:
 
 We are given Helen Dataset which contains images of faces of different persons. Our target is to classify each pixel as 
-bg
+bg <br>
 face
 lb
 rb
