@@ -83,15 +83,16 @@ The final directory strucutre will be as follows
 ## Libraries used:
 * Numpy
 
-* Pandas
+* 
 * Matplotlib
 
 * torch
 * torchvision<br>
   
-* sklearn
+* PIL
 
 * os module of python
+* tqdm
 
 ## Structure of the Approach
 
