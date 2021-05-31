@@ -150,15 +150,15 @@ I perform forward propagation for 30 epochs and print losses. Based on the trend
 
 
 
-![](label1.png)
-![](pred1.png)
+![](images/label1.png)
+![](images/pred1.png)
 
 
-![](label2.png)
-![](pred2.png)
+![](images/label2.png)
+![](images/pred2.png)
 
-![](label3.png)
-![](pred3.png)
+![](images/label3.png)
+![](images/pred3.png)
  
  <br>
 
@@ -185,15 +185,15 @@ f1_overall=0.8115612496993813 <br>
 
 
 Let's see some predictions<br>
-![](test_label1.png)
-![](test_pred1.png)
+![](images/test_label1.png)
+![](images/test_pred1.png)
 
 
-![](test_label2.png)
-![](test_pred2.png)
+![](images/test_label2.png)
+![](images/test_pred2.png)
 
-![](test_label3.png)
-![](test_pred3.png)
+![](images/test_label3.png)
+![](images/test_pred3.png)
 
 ## How to replicate on your device
 
