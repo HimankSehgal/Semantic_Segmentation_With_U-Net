@@ -132,7 +132,7 @@ I perform forward propagation for 30 epochs and print losses. Based on the trend
 
 
 * ### 8. Visualizing train loss
-![](training_losses.png)
+![](train_losses.png)
 
 
 * ### 9. Visualizing predictions
