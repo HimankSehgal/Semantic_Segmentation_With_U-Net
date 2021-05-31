@@ -83,7 +83,6 @@ The final directory strucutre will be as follows
 ## Libraries used:
 * Numpy
 
-* 
 * Matplotlib
 
 * torch
