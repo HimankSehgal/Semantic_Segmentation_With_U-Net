@@ -40,7 +40,18 @@ Number of images in train set : 18743<br>
 Number of images in test set : 6251
 
 
-
+<pre>.
+└── helenstar_release
+     ├── train
+     │   ├── image.jpg
+     │   ├── label.png
+     ├   ├── viz.jpg
+     │   └── ... (1999 sets of 3 images i.e 5997 images total)           
+     └── test
+         ├── image.jpg
+         ├── label.png
+         ├── viz.jpg
+         └── ... (100 sets of 3 images i.e 300 images total)</pre>
 
 ## Libraries used:
 * Numpy
