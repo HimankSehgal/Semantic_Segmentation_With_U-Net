@@ -16,7 +16,7 @@
 
 We are given Helen Dataset which contains images of faces of different persons. Our target is to classify each pixel as 
 bg <br>
-face
+face <br>
 lb
 rb
 le
