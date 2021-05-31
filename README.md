@@ -33,11 +33,8 @@ We are given Helen Dataset which contains images of faces of different persons. 
 
 ## Data Description:   
 For this project , the Helen Dataset used can be downloaded from <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Helen Dataset</a>.<br>
-It has a varied collection of .jpg files which have been organized by me into separate train and test folders, and further divided the images into CAT and DOG subfolders.This helps to easily track files while writing the code .The data files have been cleaned and several files which give an error have been removed. 
-
-Total number of images in dataset : 24994<br>
-Number of images in train set : 18743<br>
-Number of images in test set : 6251
+For each image. It has 3 types of files. One is image.jpg which has the file which will be loaded to the model. Second is the label.png file which has all pixel by pixel classications of the image. The viz.jpg file is just for demonstation purpose and is not of any use to the model.<br>
+Following is the directory structure 
 
 
 <pre>.
@@ -52,6 +49,10 @@ Number of images in test set : 6251
          ├── label.png
          ├── viz.jpg
          └── ... (100 sets of 3 images i.e 300 images total)</pre>
+
+Total number of images in dataset : 2099<br>
+Number of images in train set : 1999<br>
+Number of images in test set : 100
 
 ## Libraries used:
 * Numpy
