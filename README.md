@@ -33,7 +33,7 @@ We are given Helen Dataset which contains images of faces of different persons. 
 
 ## Data Description:   
 For this project , the Helen Dataset used can be downloaded from <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Helen Dataset</a>.<br>
-For each image. It has 3 types of files. One is image.jpg which has the file which will be loaded to the model. Second is the label.png file which has all pixel by pixel classications of the image. The viz.jpg file is just for demonstation purpose and is not of any use to the model.<br>
+For each image. It has 3 types of files. One is <tt>image.jpg</tt> which has the file which will be loaded to the model. Second is the <tt>label.png</tt> file which has all pixel by pixel classications of the image. The <tt>viz.jpg</tt> file is just for demonstation purpose and is not of any use to the model.<br>
 Following is the directory structure 
 
 
