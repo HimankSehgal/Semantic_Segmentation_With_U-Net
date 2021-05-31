@@ -111,11 +111,12 @@ As shown above, the directory strucutre in the link is changed so that it is eas
 Now all the images have different dimensions. But to feed them into the model, all the images need to be of the same size. I resized all the images to 256x256. Also when we load images , they are usually loaded in the form of numpy array with <tt>dtype = uint8</tt> . They need to be converted to tensors with <tt>dtype = torch.float32</tt>
 
 * ### 4. Defining Train and Test Dataloaders
-Now the train dataset has 1999 images which can not be fed in one go. I use <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Mini Batch Gradient Descent</a>.
+Now the train dataset has 1999 images which can not be fed in one go. I use <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Mini Batch Gradient Descent</a>. with a batch size of 10.
 
 
 * ### 5. Defining model
-
+The model architecture is shown in the picture below
+![](Model_arch.png)
 
 
 * ### 6. Defining Dice Loss and optimizer
