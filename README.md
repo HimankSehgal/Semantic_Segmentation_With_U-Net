@@ -9,6 +9,7 @@
 * Steps followed
 
 * Conclusion
+* How to replicate on your device
 
 
 
@@ -30,6 +31,8 @@ We are given Helen Dataset which contains images of faces of different persons. 
 * imouth
 * llip
 * hair 
+
+For this task we will be using the famous U-Net Architecture. <a href='https://arxiv.org/abs/1505.04597'>U-Net Paper</a>.
 
 ## Data Description:   
 For this project , the Helen Dataset used can be downloaded from <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Helen Dataset</a>.<br>
@@ -176,3 +179,6 @@ f1_eyes=0.814874300118227 <br>
 f1_brows=0.7150763307756063 <br>
 f1_mouth=0.8081917367197281 <br>
 f1_overall=0.8115612496993813 <br>
+
+## How to replicate on your device
+
