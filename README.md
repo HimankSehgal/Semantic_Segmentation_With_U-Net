@@ -15,17 +15,21 @@
 ## Overview of Project:
 
 We are given Helen Dataset which contains images of faces of different persons. Our target is to classify each pixel as 
-bg <br>
-face <br>
-lb
-rb
-le
-re
-nose
-ulip
-imouth
-llip
-hair
+* bg   (background)
+
+* face 
+* lb  (left brow)
+
+* rb (right brow)
+* le  (left eye)
+  
+* re (right eye)
+
+* nose
+* ulip
+* imouth
+* llip
+* hair 
 
 ## Data Description:   
 For this project , I will be using the data from a Kaggle Competition named <a href='https://www.kaggle.com/c/dogs-vs-cats'>Dogs v. Cats</a>.<br>
