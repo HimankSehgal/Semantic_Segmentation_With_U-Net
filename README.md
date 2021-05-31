@@ -14,7 +14,18 @@
 
 ## Overview of Project:
 
-We are given a dataset which contains images of Dogs and Cats . Our aim is to develop an algorithm  which will take an input image and based on parameters the algorithm has learned , it will predict whether the given input test image is a cat or dog
+We are given Helen Dataset which contains images of faces of different persons. Our target is to classify each pixel as 
+bg
+face
+lb
+rb
+le
+re
+nose
+ulip
+imouth
+llip
+hair
 
 ## Data Description:   
 For this project , I will be using the data from a Kaggle Competition named <a href='https://www.kaggle.com/c/dogs-vs-cats'>Dogs v. Cats</a>.<br>
