@@ -100,15 +100,15 @@ Samoke label.png file  ---------------------------------------------------------
 ## Steps Followed
 
 * ### 1. Importing Necessary Libraries
-Getting all the requirem
-- ads
-- ds
+Getting all the required python libraries required for the implementation of the project
 
  
 * ### 2. Looking at directory structure and making desired shiftings
+As shown above, the directory strucutre in the link is changed so that it is easy to execute in the later part
 
 
 * ### 3. Data Preprocessing
+Now all the images have different dimensions. But to feed them into the model, all the images need to be of the same size. I resized all the images to 256x256. Also when we load images , they are usually loaded in the form of numpy array with <tt>dtype = uint8</tt> . They need to be converted to tensors with <tt>dtype = torch.float32</tt>
 
 * ### 4. Defining Train and Test Dataloaders
 
