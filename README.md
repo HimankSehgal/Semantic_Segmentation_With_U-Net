@@ -54,6 +54,32 @@ Total number of images in dataset : 2099<br>
 Number of images in train set : 1999<br>
 Number of images in test set : 100
 
+
+For convenience I will be performing some shiftings to put all image.jpg files in one folders , label.png in other. I will be doing this using the <tt>shutil</tt> module of python
+
+The final directory strucutre will be as follows
+<pre>.
+└── splitted_Data
+        ├── train
+        │   ├── images
+        │   │   ├── image1.jpg
+        │   │   ├── image2.jpg
+        │   │   └── ... (1999 files)
+        │   └── labels
+        │       ├── label1.jpg
+        │       ├── label2.jpg
+        │       └── ... (1999 files)       
+        │           
+        └── test
+            ├── images
+            │   ├── image1.jpg
+            │   ├── image2.jpg
+            │   └── ... (100 files)
+            └── labels
+                ├── label1.jpg
+                ├── label2.jpg
+                └── ... (100 files)</pre>
+
 ## Libraries used:
 * Numpy
 
