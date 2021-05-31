@@ -183,6 +183,7 @@ f1_overall=0.8115612496993813 <br>
 ## How to replicate on your device
 
 Just store the data as per the directory structures shown in the code. Run the code
+You can get the pre trained weights for the model at this link  <a href='https://drive.google.com/file/d/1-2PIMuSKIFD4cqLi-Tve7v4jZ_VgnCoO/view?usp=sharing'>Pre-Trained weights</a>. 
 
 
 
