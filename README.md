@@ -9,6 +9,7 @@
 * Steps followed
 
 * Conclusion
+* How to replicate on your device
 
 
 
@@ -178,6 +179,10 @@ f1_eyes=0.814874300118227 <br>
 f1_brows=0.7150763307756063 <br>
 f1_mouth=0.8081917367197281 <br>
 f1_overall=0.8115612496993813 <br>
+
+## How to replicate on your device
+
+Just store the data as per the directory structures shown in the code. Run the code
 
 
 
