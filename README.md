@@ -148,7 +148,7 @@ I perform forward propagation for 30 epochs and print losses. Based on the trend
 
 * ### 9. Visualizing predictions
 
-Left side are the true labels and right side is our predictions
+
 
 ![](label1.png)
 ![](pred1.png)
@@ -159,7 +159,7 @@ Left side are the true labels and right side is our predictions
 
 ![](label3.png)
 ![](pred3.png)
-
+These are predictions on train set, We'll see predictions on test sets in conclusion part
 
 ## Conclusion
 The f1 scores calculated are
@@ -179,6 +179,17 @@ f1_eyes=0.814874300118227 <br>
 f1_brows=0.7150763307756063 <br>
 f1_mouth=0.8081917367197281 <br>
 f1_overall=0.8115612496993813 <br>
+
+Let's see some predictions
+![](test_label1.png)
+![](test_pred1.png)
+
+
+![](test_label2.png)
+![](test_pred2.png)
+
+![](test_label3.png)
+![](test_pred3.png)
 
 ## How to replicate on your device
 
