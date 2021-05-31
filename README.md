@@ -147,4 +147,4 @@ Plotted graphs to see the pattern of different parameters that were stored in a 
 
 ## Conclusion
 
-The training loss was 0.58 and test loss was 0.30 in the end
+Wo F1 score waala daal dena
