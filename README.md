@@ -96,6 +96,7 @@ Samoke label.png file  ---------------------------------------------------------
 
 * os module of python
 * tqdm
+* shutil
 
 ## Steps Followed
 
