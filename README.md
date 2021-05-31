@@ -84,14 +84,14 @@ The final directory strucutre will be as follows
                 └── ... (100 files)</pre>
                 
 Sample images and their corresponding labels <br>
-![](image1.png)
-![](label1.png)
+![](images/image1.png)
+![](images/label1.png)
 
-![](image2.png)
-![](label2.png)
+![](images/image2.png)
+![](images/label2.png)
 
-![](image3.png)
-![](label3.png)
+![](images/image3.png)
+![](images/label3.png)
 
 
 ## Libraries used:
