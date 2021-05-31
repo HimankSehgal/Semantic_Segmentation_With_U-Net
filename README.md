@@ -145,6 +145,17 @@ I perform forward propagation for 30 epochs and print losses. Based on the trend
 
 * ### 9. Visualizing predictions
 
+Left side are the true labels and right side is our predictions
+
+![](label1.png)
+![](pred1.png)
+
+
+![](label2.png)
+![](pred2.png)
+
+![](label3.png)
+![](pred3.png)
 
 
 ## Conclusion
