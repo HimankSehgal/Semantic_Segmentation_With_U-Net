@@ -111,7 +111,7 @@ As shown above, the directory strucutre in the link is changed so that it is eas
 Now all the images have different dimensions. But to feed them into the model, all the images need to be of the same size. I resized all the images to 256x256. Also when we load images , they are usually loaded in the form of numpy array with <tt>dtype = uint8</tt> . They need to be converted to tensors with <tt>dtype = torch.float32</tt>
 
 * ### 4. Defining Train and Test Dataloaders
-Now the train dataset has 1999 images which can not be fed in one go. I use <a href='https://drive.google.com/file/d/1jweX1u0vltv-tYZhYp6mlyDZDy0aDyrw/view?usp=sharing'>Mini Batch Gradient Descent</a>. with a batch size of 10.
+Now the train dataset has 1999 images which can not be fed in one go. I use <a href='https://www.youtube.com/watch?v=4qJaSmvhxi8'>Mini Batch Gradient Descent</a>. with a batch size of 10.
 
 
 * ### 5. Defining model
@@ -124,9 +124,11 @@ The input to the model is of shape 10x3x256x256 and output is 10x11x256x256
 
 
 * ### 6. Defining Dice Loss and optimizer
-
+For this problem we will be defining the <tt>DiceLoss</tt>. As there is not pre defined Diceloss in pytorch, We will be defining it on our own. The code is inspired from  <a href='https://www.jeremyjordan.me/semantic-segmentation/'>An overview of semantic image segmentation</a>.
 
 * ### 7. Performing Forward Propagation
+I perform forward propagation for 30 epochs and print losses. Based on the trend of losses, I have occationally interrupted execution and reduced learning rate
+
 
 
 * ### 8. Visualizing train loss
